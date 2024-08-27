@@ -1,0 +1,22 @@
+#edit-dropdown{
+    background-color: transparent;
+    color: black;
+}
+
+#edit-dropdown:focus{
+    border: none;
+}
+#edit-dropdown-menu{
+    padding: 10px;
+    background-color:white;
+    box-shadow: -1px 2px 2px;
+}
+
+.edit-btns{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+}

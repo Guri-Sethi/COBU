@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #FD9960;
+    width: 100vw;
+    height: 12vh;
+    border-radius: 0 0 28px 28px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    box-shadow: -2px 10px 10px gray;
+}
+.leftNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    height: 100%;
+}
+.logo{
+    font-family: 'Roboto';
+    letter-spacing: 5px;
+    color: white;
+    display: flex;
+}
+
+@media (max-width:1450px) {
+    .logo #h1{
+        display: none;
+    }
+    .leftNav{
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+

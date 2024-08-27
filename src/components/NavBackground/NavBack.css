@@ -1,0 +1,88 @@
+/* multiply design */
+.multiply{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    top: -10%;
+    margin-left: 25%;
+    transform: rotate(-25deg);
+}
+
+.multiply .leftMulBar{
+    height:100%;
+    width: 20%;
+    background-color: #0588e687;
+    transform: rotate(-40deg);
+    border-radius: 20px;
+}
+.multiply .rightMulBar{
+    position: absolute;
+    height:100%;
+    width: 20%;
+    background-color: #0588e68e;
+    transform: rotate(40deg);
+    border-radius: 20px;
+}
+
+.rightBackground{
+    display: flex;
+    padding: 0 10%;
+    width: 100%;
+}
+/* divide design */
+.divide{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: -25%;
+    top: -16px;
+    display: flex;
+}
+
+.divide .dot1{
+    height: 40%;
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.537);
+    border-radius: 50%;
+    position: relative;
+}
+.divide .bar{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(255, 0, 0, 0.532);
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
+
+.divide .dot2{
+    height: 40%;
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.539);
+    border-radius: 50% ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* question mark */
+.question {
+    width: 40px; 
+    height: 40px; 
+    position: relative;
+}
+
+
+
+.question::after {
+    content: "?";
+    font-size: 60px; 
+    font-weight: bold;
+    position: absolute;
+    color: #ffdc99;
+    top: -70%;
+    left: 30%;
+    transform: rotate(-60deg);
+}

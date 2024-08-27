@@ -1,0 +1,22 @@
+#noContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+    color: gray;
+    font-family: 'Roboto';
+}
+
+.moduleContainer{
+    padding: 2%;
+}
+
+.module-card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+

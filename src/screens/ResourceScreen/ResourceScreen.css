@@ -1,0 +1,43 @@
+.resourceContainer{
+    margin: 2%;
+}
+
+.resource-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resource-title{
+    margin-left: 1%;
+    color: rgb(174, 61, 20);
+}
+
+#no-resource{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: gray;
+}
+
+.back-btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 4%;
+}
+
+#back-icon{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.resource-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    width: 100%;
+}

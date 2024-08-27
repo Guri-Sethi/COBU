@@ -1,0 +1,71 @@
+.dialog{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: -4px 10px 10px black;
+    height: 35%;
+    width: 40%;
+    min-height: 35%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.dialog-label{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: rgb(228, 94, 46);
+    letter-spacing: 1px;
+}
+
+.nameInput{
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+#fileInput{
+    margin-left: 5%;
+    border-radius: 5px;
+    border:1px gray;
+}
+
+
+.btns{
+    display: flex;
+    width: 90%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.inputBtns{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(255, 230, 170) ;
+    font-weight: bold;
+    color: rgb(149, 70, 14);
+    height: 40px;
+    width: 80px;
+    box-shadow: -2px 3px 2px darkgray;
+}
+.inputBtns:hover{
+    background-color: rgb(127, 60, 13);
+    color: white;
+    transition: all 1s;
+}
+
+#confirmBtn{
+    margin-right: 5px;
+}
+#cancelBtn{
+    margin-left: 5px;
+}

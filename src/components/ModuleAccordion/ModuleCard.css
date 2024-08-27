@@ -1,0 +1,27 @@
+.module-card{
+  height: auto;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: -2px 5px 5px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.module-card:hover{
+  cursor: pointer;
+}
+
+.module-card-head{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 26px;
+  font-family: 'Roboto';
+  background-color: rgb(96, 127, 34);
+  color: white;
+  border-radius:10px;
+  height: 100%;
+  width: 70%;
+}
