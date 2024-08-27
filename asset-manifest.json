@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cobu/static/css/main.6e9aa042.css",
+    "main.js": "/cobu/static/js/main.2ac05c88.js",
+    "index.html": "/cobu/index.html",
+    "main.6e9aa042.css.map": "/cobu/static/css/main.6e9aa042.css.map",
+    "main.2ac05c88.js.map": "/cobu/static/js/main.2ac05c88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e9aa042.css",
+    "static/js/main.2ac05c88.js"
+  ]
+}
